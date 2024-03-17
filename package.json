@@ -1,0 +1,27 @@
+{
+  "name": "hono-on-gas",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "push": "bun scripts/build.ts && clasp push"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.0",
+    "@google/clasp": "^2.4.2",
+    "@types/bun": "latest",
+    "@types/core-js": "^2.5.8",
+    "esbuild": "^0.20.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.82",
+    "core-js": "^3.36.0",
+    "fetch-polyfill": "^0.8.2",
+    "hono": "^4.0.10",
+    "node-fetch": "^3.3.2",
+    "undici": "^6.7.1",
+    "whatwg-fetch": "^3.6.20"
+  }
+}
